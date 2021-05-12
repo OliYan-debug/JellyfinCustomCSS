@@ -59,3 +59,8 @@ box-shadow: inset 150px 150px 150px 150px rgba(0,0,0,0.7);
 /*Shrink and square (or round) cast thumnails*/
 #castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
 #castContent .card.overflowPortraitCard.personCard.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
+
+/*Top Logo*/
+.pageTitleWithDefaultLogo{
+	background-image:url("https://vignette.wikia.nocookie.net/onepiece/images/8/87/One_Piece_Anime_Logo.png/revision/latest?cb=20161211033116&path-prefix=es") ;
+}
