@@ -1,0 +1,61 @@
+/* Make watched icon dark and transparent */
+.playedIndicator {background:rgba(0,0,0,0.2);}
+
+/*Remove Buttons*/
+.headerCastButton { display: none; }
+.headerSyncButton { display: none; }
+
+#loginPage {
+  background: url("https://www.wallpapertip.com/wmimgs/30-305805_attack-on-titan-mikasa-wallpaper-hd.jpg");
+  background-size: cover;
+}
+/*Borders*/
+.emby-input, .emby-textarea, .emby-select { border-color: #7400bc; }
+
+/*Background Homepage*/
+.backdropImage { display: none; }
+.backgroundContainer {
+  background-image: url("https://wallpapertag.com/wallpaper/full/c/6/2/991518-cool-roronoa-zoro-wallpapers-1920x1080.jpg");
+  background-size: cover;
+box-shadow: inset 150px 150px 150px 150px rgba(0,0,0,0.7);
+}
+/*Top Menu Transparency*/
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {background:none; background-color:rgba(0, 0, 0, 0);}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {background:none; background-color:rgba(0, 0, 0, 0);}
+
+/* Adjust both "size-adjust" and "size" to modify size */
+.headerTabs.sectionTabs {text-size-adjust: 110%;  font-size: 110%;}
+.pageTitle {margin-top: auto; margin-bottom: auto;}
+.emby-tab-button {padding: 1.75em 1.7em;}
+
+/* Narrow the login form */
+#loginPage .readOnlyContent, #loginPage form {max-width: 22em;}
+
+/* Hide "please login" text, margin is to prevent login form moving too far up */
+#loginPage h1 {display: none}
+#loginPage .padded-left.padded-right.padded-bottom-page {margin-top: 50px}
+
+/* Hide "manual" and "forgot" buttons */
+#loginPage .raised.cancel.block.btnManual.emby-button {display: none}
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {display: none}
+
+/* Size episode preview images in a more compact way */
+.listItemImage.listItemImage-large.itemAction.lazy {height: 110px;}
+.listItem-content {height: 115px;}
+.secondary.listItem-overview.listItemBodyText {height: 61px; margin: 0;}
+
+.skinHeader, .mainDrawer, .emby-input, .emby-textarea, .emby-select, .navMenuOption-selected, .cardBox, .paperList { background: rgba(0, 0, 0,0.6); color: rgb(200,200,200);font-weight:bolder;}
+
+/*input border*/
+.emby-input, .emby-textarea, .emby-select { border-color: rgba(0,0,0,0.8); }
+.emby-input:focus, .emby-textarea:focus, .emby-select-withcolor { border-color: rgba(255,255,255,0.4) !important; }
+.button-link{color: rgba(200,200,200,0.7);}
+
+/*Minimalistic play buttons*/
+.listItemImageButton-icon {padding: 0;}
+.cardOverlayFab-primary {background-color: #00000000;}
+.cardOverlayButtonIcon {background-color: #00000000 !important;}
+
+/*Shrink and square (or round) cast thumnails*/
+#castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
+#castContent .card.overflowPortraitCard.personCard.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
